@@ -1,0 +1,181 @@
+/* livvic-500italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* livvic-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 3px dotted#fff;
+  outline-offset: 5px;
+}
+html {
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Livvic", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: flex;
+}
+.container {
+  width: 100%;
+  max-width: 1210px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  border: 2px solid transparent;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 9px 33px 11px 32px;
+  border-radius: 24px;
+  transition: o.3s;
+}
+.btn:active {
+  opacity: 0.6;
+}
+.btn-white {
+  color: #fff;
+  border-color: #fff;
+}
+.btn-white:hover {
+  background-color: #fff;
+  color: #002529;
+}
+.btn-dark {
+  color: #002529;
+  border-color: #002529;
+}
+.btn-dark:hover {
+  background-color: #002529;
+  color: #fff;
+}
+.orange-text {
+  color: #f67e7e;
+}
+.divider {
+  height: 4px;
+  width: 50px;
+}
+.blue-divider {
+  background-color: #79c8c7;
+}
+/* glabol end */
+/* HEADER */
+.header {
+  background-color: #014e56;
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  color: #fff;
+  margin-right: 80px;
+}
+
+.sitenav {
+  margin-right: auto;
+}
+.sitenav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.sitenav-link {
+  color: #fff;
+  transition: o.3s;
+}
+.sitenav-link:hover {
+  color: #f67e7e;
+}
+
+/* HEADER END */
+/* MAIN HERO START */
+
+.hero {
+  padding-top: 56px;
+  color: #fff;
+  padding-bottom: 250px;
+  background-color: #014e56;
+  background-image: url(../images/shaffof\ rasm.svg),
+    url(../images/shaffof\ rasm\ pastki\ qism.svg);
+  background-repeat: no-repeat;
+  background-position: left -100px top 50px, right 165px bottom -100px;
+}
+
+.hero-container {
+  display: flex;
+}
+.hero-title {
+  font-size: 100px;
+  line-height: 100px;
+}
+.hero-divider {
+  margin-bottom: 79px;
+  justify-content: space-between;
+}
+
+.hero-discription {
+  width: 100%;
+  max-width: 445px;
+  width: 535px;
+}
+
+/* MAIN HERO END */
